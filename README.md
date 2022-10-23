@@ -1,34 +1,81 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center"> Projeto 04 - Ignite-Shop </h1>
 
-## Getting Started
+<p align="center">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/Fellippemfv/rocketseat-react-project-4">
 
-First, run the development server:
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Fellippemfv/rocketseat-react-project-4?color=red">
+
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/Fellippemfv/rocketseat-react-project-4?color=yellow">
+  
+  <a href="https://github.com/Fellippemfv/rocketseat-react-project-4/commits/master">
+  	<img alt="last-commit" src="https://img.shields.io/github/last-commit/Fellippemfv/rocketseat-react-project-4">
+  </a>
+
+  <a href="https://github.com/Fellippemfv/rocketseat-react-project-4/blob/master/LICENSE.md">
+  	<img alt="GitHub/license" src="https://img.shields.io/github/license/Fellippemfv/rocketseat-react-project-4">
+  </a>
+</p>
+
+<p align="center">
+  <a href="#round_pushpin-sobre-o-projeto">Sobre o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#rocket-tecnologias-utilizadas">Tecnologias utilizadas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#information_source-como-usar">Como usar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Licença</a>
+</p>
+
+<p align="center">
+  <img alt="logo" title="logo" src="https://user-images.githubusercontent.com/67835741/197422316-2a289e6d-56b8-4780-8677-41084844f5f4.png" />
+</p>
+
+<br>
+
+## :round_pushpin: Sobre o projeto
+
+ Quarto projeto de reactJS, realizado durante o curso de react da rocketseat. Desenvolvemos do zero uma aplicação de shop, nele vamos usar como exemplo a venda de camisas, teremos as opções de verificar quais existem e escolher uma para comprar.
+
+
+## :rocket: Tecnologias utilizadas
+
+Este projeto foi desenvolvido com as seguintes tecnologias:
+
+-  [ReactJS](https://pt-br.reactjs.org)
+-  [NextJS](https://nextjs.org)
+-  [TypeScript](https://www.typescriptlang.org)
+-  [Eslint](https://eslint.org)
+
+## :information_source: Como usar
+
+Para clonar e executar esta aplicação, você precisará do [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/), [Npm](https://www.npmjs.com/) e um editor de texto igual ao [Vs code](https://code.visualstudio.com/) instalado em seu computador. Na sua linha de comando:
 
 ```bash
-npm run dev
-# or
-yarn dev
+# Clonar este repositório
+$ git clone https://github.com/Fellippemfv/rocketseat-react-project-4.git
+
+# Ir até a pasta criada
+$ cd rocketseat-react-project-4
+
+# Instalar dependências
+$ npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<!-- Para rodar esta aplicação vamos precisar usar dois terminais para criar dois servidores em portas diferentes, uma porta para o frontend usando o vite e outra porta para nossa api-fake usando json-server. -->
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```bash
+# Para o next iniciar um servidor no endereço: http://localhost:3000
+$ npm run dev
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Também temos alguns comandos opicionais para uso do eslint.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```bash
+# Para o Eslint VERIFICAR se há erros de identação, falta de ponto/virgula ou erro de importação
+$ npm run lint
 
-## Learn More
+# Para o Eslint CONSERTAR todos os erros
+$ npm run lint:fix
+```
+## :memo: Licença
 
-To learn more about Next.js, take a look at the following resources:
+Este projeto está sob a licença do MIT. Veja o [LICENSE](https://github.com/Fellippemfv/rocketseat-react-project-4/blob/master/LICENSE.md) para mais informação.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
