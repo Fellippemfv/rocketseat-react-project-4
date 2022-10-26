@@ -23,6 +23,9 @@ interface ProductProps {
 }
 
 export default function Product({ product }: ProductProps) {
+  function handleBuyProduct() {
+    console.log(product.defaultPriceId);
+  }
 /*   const { addItem, cartDetails } = useShoppingCart();
   console.log(cartDetails) */
 
@@ -47,7 +50,7 @@ export default function Product({ product }: ProductProps) {
 
             <p>{product.description}</p>
 
-            <button /* onClick={() => addItem(product)} */>Colocar na sacola</button>
+            <button onClick={handleBuyProduct} /* onClick={() => addItem(product)} */>Colocar na sacola</button>
           </ProductDetails>
         </ProductContainer>
       </>
